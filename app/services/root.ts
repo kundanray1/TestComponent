@@ -12,10 +12,10 @@ import {
   PURGE,
   REGISTER,
 } from "redux-persist"
-import SearchReducer from "./search.slice"
+import EventReducer from "./events.slice"
 
 const reducers = combineReducers({
-  search: SearchReducer,
+  event: EventReducer,
 
 })
 

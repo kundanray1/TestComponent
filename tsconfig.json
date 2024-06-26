@@ -16,6 +16,8 @@
     "lib": ["esnext", "dom"],
     "skipLibCheck": true,
     "resolveJsonModule": true,
+    "types": ["jest", "react-native"],
+
     "baseUrl": ".",
     "paths": {
       "app/*": ["./app/*"],
